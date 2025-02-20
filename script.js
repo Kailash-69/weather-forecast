@@ -7,7 +7,7 @@ form.addEventListener('submit', (event) => {
   const location = document.getElementById('location').value;
 
   // Replace with your API key
-  const apiKey = 'YOUR_API_KEY';
+  const apiKey = 'c73e82ba7d9cf796c122baf7421d2b4c';
 
   // Replace with your API endpoint
   const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}`;
