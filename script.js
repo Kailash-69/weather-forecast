@@ -4,7 +4,7 @@ const apiKey =
 	'c73e82ba7d9cf796c122baf7421d2b4c';
 
 $(document).ready(function () {
-	weatherFn('Pune');
+	weatherFn('Bengaluru');
 });
 
 async function weatherFn(cName) {
