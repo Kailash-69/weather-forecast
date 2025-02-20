@@ -10,7 +10,7 @@ form.addEventListener('submit', (event) => {
   const apiKey = 'c73e82ba7d9cf796c122baf7421d2b4c';
 
   // Replace with your API endpoint
-  const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}`;
+  const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${c73e82ba7d9cf796c122baf7421d2b4c}`;
 
   fetch(apiUrl)
     .then(response => response.json())
